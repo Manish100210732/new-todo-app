@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="http://localhost:4000/signup" method="post">
+            <h2>Todo App</h2>
+            <div class="input-group">                
+                <input type="text" placeholder="Name" id="Name" name="Name" required>
+            </div>
+            <div class="input-group">   
+                             
+                <input type="email" placeholder="Email" id="Email" name="Email" required>
+            </div>
+            <div class="input-group">                
+                <input type="date" placeholder="Joiningdate" id="Joiningdate" name="Joiningdate" required>
+            </div>
+            <div class="input-group">                
+                <input type="date" placeholder="Enddate" id="Enddate" name="Enddate" required>
+            </div>
+            
+            <button type="submit" id="todo" class="btn">Todo</button>            
+        </form>        
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
